@@ -11,7 +11,7 @@
         <h2 id="description">Thank you for completing this form</h2>
         
         <div class="form-div-class" id="form-div">
-        <form id="survey-form" action="https://docs.google.com/spreadsheets/d/1Nd1PRHKkD-rYwT-BJacAjxsoKtCcr-wNfEybWPp8ztQ/edit#gid=0">
+        <form id="survey-form">
             
             <div id="fill-div" class="fill-div">
             <label id="name-label" for="name-label">
@@ -38,7 +38,7 @@
                     </datalist>
             </div>
                  
-            <div id="checkbox-div">
+            <div id="checkbox-div" class="checkbox-div">
                 <p>Which season(s) of the year would you come?</p>
                            
                 <label for="winter">
@@ -58,9 +58,10 @@
                 </label>
             <div>
 
-            <p>Any comments or suggestions?</p>
-            <input id="comments" placeholder="Enter your comment here...">
-
+            <div id="comments-div"> 
+                <p>Any comments or suggestions?</p>
+                <input id="comments" placeholder="Enter your comment here...">
+            </div>
             <br>
 
             <button class="button-class" id="submit">Submit</button>
