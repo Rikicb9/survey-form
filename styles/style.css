@@ -61,12 +61,9 @@ input[type=checkbox] {
   box-shadow:0px 0px 10px red;
 }
 
-
-
-#comments {
+textarea {
   width: 400px;
-  height: 100px;
-  text-align: start;
+  max-width: 400px;
 }
 
 #submit {
