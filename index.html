@@ -6,12 +6,14 @@
         <link href="styles/style.css" rel="stylesheet">
     </head>
 
-    <body>
+    <body class="body-class">
         <h1 id="title">Rikicb9's Survey Form</h1>
-        <p id="description">Thank you for completing this form</p>
-        <div id="form-div">
+        <h2 id="description">Thank you for completing this form</h2>
+        
+        <div class="form-div-class" id="form-div">
         <form id="survey-form" action="https://docs.google.com/spreadsheets/d/1Nd1PRHKkD-rYwT-BJacAjxsoKtCcr-wNfEybWPp8ztQ/edit#gid=0">
             
+            <div id="fill-div" class="fill-div">
             <label id="name-label" for="name-label">
                 <p>Name</p>
                 <input id="name" type="text" placeholder="Enter your name" required>
@@ -34,32 +36,38 @@
                         <option value="Never">
                         <option value="Sooner than you expect">
                     </datalist>
+            </div>
                  
-            
-                <p>If you answered yes, which season of the year would you come?</p>
-                
-            <label for="winter">
-                <input id="winter" name="summer-spring-winter-autumn" type="checkbox" value="Winter"> Winter
-            </label>
+            <div id="checkbox-div">
+                <p>Which season(s) of the year would you come?</p>
+                           
+                <label for="winter">
+                    <input id="winter" name="summer-spring-winter-autumn" type="checkbox" value="Winter"> Winter
+                </label>
 
-            <label for="spring">
-                <input id="spring" name="summer-spring-winter-autumn" type="checkbox" value="Spring"> Spring
-            </label>
+                <label for="spring">
+                    <input id="spring" name="summer-spring-winter-autumn" type="checkbox" value="Spring"> Spring
+                </label>
 
-            <label for="summer">
-                <input id="summer" name="summer-spring-winter-autumn" type="checkbox" value="Summer"> Summer
-            </label>
+                <label for="summer">
+                    <input id="summer" name="summer-spring-winter-autumn" type="checkbox" value="Summer"> Summer
+                </label>
 
-            <label for="autumn">
-                <input id="autumn" name="summer-spring-winter-autumn" type="checkbox" value="Autumn"> Autumn
-            </label>
+                <label for="autumn">
+                    <input id="autumn" name="summer-spring-winter-autumn" type="checkbox" value="Autumn"> Autumn
+                </label>
+            <div>
 
             <p>Any comments or suggestions?</p>
             <input id="comments" placeholder="Enter your comment here...">
+
             <br>
-            <button id="submit">Submit</button>
+
+            <button class="button-class" id="submit">Submit</button>
           
         </form>
         </div>
+    
     </body>
+
 </html>
